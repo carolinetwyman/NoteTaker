@@ -19,11 +19,19 @@ module.exports = function (app) {
 
         };
         db.push(newNote);
-
         res.send(newNote);
     });
 
-    app.delete("/api/notes/:id", function (req,res) {
-        //delete function (needs id package uuid per instuctions??)
-    })
+    app.delete("/api/notes/:id", function(req, res) {
+        
+        var noteID = req.params.id
+
+        for (var i = 0; i < db.length; i++) {
+            if(db[i].id === noteID) {
+                let objIndex = db.indexOf(db);
+                db.splice(objIndex,1);
+            }
+        res.send(db);
+    }
+});
 };
