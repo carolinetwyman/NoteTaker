@@ -15,7 +15,7 @@
 ## Description
 This is an app that allows you to take notes, and save them in one place. 
 
-First, add a title in your note, this will appear when saved. 
+First, add a title in your note, the title is what will appear when saved. 
 
 ![project image](./imgs/typeInTitle.png)
 
@@ -31,14 +31,13 @@ This is how the notes appear when saved.
 
 ![project image](./imgs/savedNote.png)
 
-When you're done with a note, you can delet it by clicking the trash icon (and what icons aren't, these days)
+When you're done with a note, you can delete it by clicking the trash icon (and what icons aren't, these days).
 
 ![project image](./imgs/trashIcon.png)
 
 
-
-## Installation Instructions
-You Can visit the app on https://ctnotetaker.herokuapp.com/notes
+## Location
+No need to install locally, you can visit the app on https://ctnotetaker.herokuapp.com/notes
 
 ## Usage Information
 To enter a Title, click on the Title, and enter in text. To enter in a body, do the same in the body.
